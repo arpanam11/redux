@@ -4,7 +4,6 @@ import { Provider } from 'react-redux';
 import store from './reduxContainer/Store';
 import ProductContainer from './reduxContainer/ProductContainer';
 
-
 function App() {
   return (
     <Provider store={store}>
