@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.cardbox{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+
+}
+.cards{
+  background-color: #f4f4f4;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+  margin: 10px;
+}
+.cards p{
+  font-size: 10px;
+}
