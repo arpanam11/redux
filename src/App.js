@@ -1,14 +1,15 @@
 import React from 'react';
-import './App.css';
 import { Provider } from 'react-redux';
-import store from './reduxContainer/Store';
+import store from './reduxToolkit/store';
+import AppComponent from '../src/reduxToolkit/AppComponent';
 import ProductContainer from './reduxContainer/ProductContainer';
 
 function App() {
     return (
         <Provider store={store}>
-            <div className='App'>
-                <ProductContainer/>
+            <div className="App">
+                <AppComponent />
+               {/* <ProductContainer/> */}
             </div>
         </Provider>
     );
